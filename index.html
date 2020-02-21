@@ -2,17 +2,105 @@
 <html>
 <head>
   <title> Home </title>
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
-  <h1> Mid Michigan Hospitality </h1>
-  <h2> Mid Michigan Hospitality </h2>
-  <h3> Mid Michigan Hospitality </h3>
-  <h4> Mid Michigan Hospitality </h4>
-  <h5> Mid Michigan Hospitality </h5>
-  <h6> Mid Michigan Hospitality </h6>
-  <p> Welcome to the dynasty </p>
 
-  <img src="paradise.jpg" height="300px" width="600px">
+  <h1> Mid Michigan Hospitality </h1>
+  <div id="Introduction">
+
+    <p> Mid Michigan Hospitality has one goal in mind when developing hotels: <big><strong>Home</strong></big></p>
+    <br>
+    <p> Home is simple, a place where one feels the most comfortable. </p>
+    <br>
+    <p> Our hotels provide a guest a place that feels like home, no matter how far they traveled. </p>
+
+  </div>
+
+  <h2> Sign up for our newsletter </h2>
+  <div id="news-letter-form">
+    <form action="" method="">
+
+      <div class="news-form" id="first-name">
+        <label for="first-name"> First Name: </label>
+        <input type="text" name="first-name" placeholder="First Name" required />
+      </div>
+
+      <div class="news-form" id="middle-name">
+        <label for="middle-name"> Middle Name: </label>
+        <input type="text" name="middle-name" placeholder="Middle Name" required />
+      </div>
+
+      <div class="news-form" id="last-name">
+        <label for="last-name"> Last Name: </label>
+        <input type="text" name="last-name"placeholder="Last Name" required />
+      </div>
+
+      <br>
+
+      <div class="news-form" id="gender">
+        <div class="male">
+          <label>Male</label>
+          <input type="radio" name="gender-choice" value="male">
+        </div>
+
+        <div class="female">
+          <label>Female</label>
+          <input type="radio" name="gender-choice" value="female">
+        </div>
+
+        <div class="other">
+          <label>Other</label>
+          <input type="radio" name="gender-choice" value="other">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="news-form" id="email">
+        <label for="email"> Email: </label>
+        <input type="email" name="email" placeholder="abc@email.com">
+      </div>
+
+      <button type="submit" name="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="Team">
+    <table>
+      <thead>
+        <th>Name</th>
+        <th>Position</th>
+      </thead>
+
+      <tr>
+        <td>Bhavesh Patel</td>
+        <td>CEO</td>
+      </tr>
+
+      <tr>
+        <td>Kirti Patel</td>
+        <td>COO</td>
+      </tr>
+
+      <tr>
+        <td>Ketan Patel</td>
+        <td>CFO</td>
+      </tr>
+
+      <tr>
+        <td>Vinay Patel</td>
+        <td>Regional Manager</td>
+      </tr>
+
+      <tr>
+        <td>Shyam Patel</td>
+        <td>Director of Marketing and Sales</td>
+      </tr>
+    </table>
+
+  </div>
+
 
 </html>
