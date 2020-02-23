@@ -1,3 +1,19 @@
+#title
+{
+  text-align: center;
+}
+#introduction
+{
+  text-align: center;
+  font-style: italic;
+}
+
+#signup
+{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 table
 {
   border: 1px solid black;
