@@ -1,9 +1,17 @@
 table
 {
   border: 1px solid black;
+  background: blue;
 }
 
 td
 {
   border: 1px solid black;
+  background: green;
+}
+
+th
+{
+  border: 1px solid black;
+  background: red;
 }
